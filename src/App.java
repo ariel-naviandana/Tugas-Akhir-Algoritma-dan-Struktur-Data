@@ -11,7 +11,7 @@ public class App {
         boolean isRunning = true;
 
         while (isRunning) {
-            System.out.println("Menu:");
+            System.out.println("\nMenu:");
             System.out.println("1. Tambahkan film");
             System.out.println("2. Tampilkan film");
             System.out.println("0. Keluar");
@@ -78,10 +78,7 @@ public class App {
         listFilm.add(new Film("The Dark Knight", 2008, 9.0));
         listFilm.add(new Film("Forrest Gump", 1994, 8.8));
         listFilm.add(new Film("The Godfather", 1972, 9.2));
-        listFilm.add(new Film("The Godfather: Part II", 1974, 9.0));
         listFilm.add(new Film("Pulp Fiction", 1994, 8.9));
-        listFilm.add(new Film("Schindler's List", 1993, 9.0));
-        listFilm.add(new Film("The Lord of the Rings: The Return of the King", 2003, 9.0));
         listFilm.add(new Film("Fight Club", 1999, 8.8));
         listFilm.add(new Film("The Matrix", 1999, 8.7));
         listFilm.add(new Film("Se7en", 1995, 8.6));
@@ -94,13 +91,13 @@ public class App {
     }
 
     public static void tambahFilm(Scanner scanner, LinkedList<Film> listFilm) {
-        System.out.println("Form tambah film:");
+        System.out.println("\nForm tambah film:");
         System.out.print("Judul         : ");
         String judul = scanner.nextLine();
         System.out.print("Tahun Rilis   : ");
         int tahunRilis = scanner.nextInt();
         System.out.print("Rating        : ");
-        int rating = scanner.nextInt();
+        double rating = scanner.nextDouble();
         listFilm.add(new Film(judul, tahunRilis, rating));
     }
 
