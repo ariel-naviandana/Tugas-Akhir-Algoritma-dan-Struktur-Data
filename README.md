@@ -1,7 +1,5 @@
 Aplikasi Sorting Daftar Film
 
-Deskripsi
-
 Aplikasi ini adalah program berbasis konsol yang ditulis dalam bahasa Java untuk mengelola daftar film. Pengguna dapat menambahkan film ke dalam daftar, lalu menyortir daftar tersebut berdasarkan kriteria tertentu seperti judul, tahun rilis, atau rating. Aplikasi ini mendukung tiga algoritma sorting: Bubble Sort, Insertion Sort, dan Selection Sort. Selain itu, pengguna dapat memilih urutan sorting, yaitu ascending atau descending.
 
 
@@ -18,11 +16,11 @@ Alur Program:
 
 Menu Sorting:
 
-Pilih metode sorting: Bubble Sort, Insertion Sort, atau Selection Sort
+1. Pilih metode sorting: Bubble Sort, Insertion Sort, atau Selection Sort
 
-Pilih kriteria sorting: Judul, Tahun Rilis, atau Rating
+2. Pilih kriteria sorting: Judul, Tahun Rilis, atau Rating
 
-Pilih urutan sorting: Ascending atau Descending
+3. Pilih urutan sorting: Ascending atau Descending
 
 Screenshot Program
 1. Menu awal
