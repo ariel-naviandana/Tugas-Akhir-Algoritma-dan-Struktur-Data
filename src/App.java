@@ -30,8 +30,10 @@ public class App {
                 System.out.print("Masukkan pilihan Anda : ");
                 int method = scanner.nextInt();
 
-                if (!(method == 1 || method == 2 || method == 3))
+                if (!(method == 1 || method == 2 || method == 3)) {
                     System.out.println("Pilihan tidak valid!");
+                    continue;
+                }
 
                 System.out.println("Field sorting:");
                 System.out.println("1. Judul");
@@ -40,8 +42,10 @@ public class App {
                 System.out.print("Masukkan pilihan Anda : ");
                 int field = scanner.nextInt();
 
-                if (!(field == 1 || field == 2))
+                if (!(field == 1 || field == 2)) {
                     System.out.println("Pilihan tidak valid!");
+                    continue;
+                }
 
                 System.out.println("Urutan sorting:");
                 System.out.println("1. Ascending");
@@ -49,8 +53,10 @@ public class App {
                 System.out.print("Masukkan pilihan Anda : ");
                 int order = scanner.nextInt();
 
-                if (!(order == 1 || order == 2))
+                if (!(order == 1 || order == 2)) {
                     System.out.println("Pilihan tidak valid!");
+                    continue;
+                }
 
                 scanner.nextLine();
 
